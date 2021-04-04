@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name nice-nano-kicad)(type KiCad)(uri ${KIPRJMOD}/nice-nano-kicad)(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type KiCad)(uri /home/david/projects/split45/pcb/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
+)
