@@ -1565,16 +1565,15 @@ Wire Wire Line
 $Comp
 L nice_nano:nice_nano U2
 U 1 1 60F4CBBD
-P 2250 4700
-F 0 "U2" H 2250 5637 60  0000 C CNN
-F 1 "nice_nano" H 2250 5531 60  0000 C CNN
-F 2 "nice-nano-kicad:nice_nano" V 3300 2200 60  0001 C CNN
-F 3 "" V 3300 2200 60  0001 C CNN
-	1    2250 4700
+P 1850 8400
+F 0 "U2" H 1850 9337 60  0000 C CNN
+F 1 "nice_nano" H 1850 9231 60  0000 C CNN
+F 2 "nice-nano-kicad:nice_nano" V 2900 5900 60  0001 C CNN
+F 3 "" V 2900 5900 60  0001 C CNN
+	1    1850 8400
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3000 1700
-NoConn ~ 3000 1900
 NoConn ~ 3000 2000
 NoConn ~ 1600 1700
 NoConn ~ 1600 1800
@@ -1615,7 +1614,7 @@ F 3 "" V 3350 -250 60  0001 C CNN
 	1    2300 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 3000 1800 2    50   Input ~ 0
+Text GLabel 3300 1700 1    50   Input ~ 0
 GND
 Text GLabel 1600 1900 0    50   Input ~ 0
 GND
@@ -1625,32 +1624,107 @@ Wire Wire Line
 	3950 14250 5950 14250
 Connection ~ 3950 14250
 Connection ~ 5950 14250
-Text GLabel 1550 4650 0    50   Input ~ 0
+Text GLabel 1150 8350 0    50   Input ~ 0
 RRow2
-Text GLabel 1550 4550 0    50   Input ~ 0
+Text GLabel 1150 8250 0    50   Input ~ 0
 RRow1
-Text GLabel 2950 4550 2    50   Input ~ 0
+Text GLabel 2550 8250 2    50   Input ~ 0
 RRow4
-Text GLabel 2950 4650 2    50   Input ~ 0
+Text GLabel 2550 8350 2    50   Input ~ 0
 RRow3
-Text GLabel 1550 4750 0    50   Input ~ 0
+Text GLabel 1150 8450 0    50   Input ~ 0
 RCol7
-Text GLabel 1550 4850 0    50   Input ~ 0
+Text GLabel 1150 8550 0    50   Input ~ 0
 RCol6
-Text GLabel 2950 4750 2    50   Input ~ 0
+Text GLabel 2550 8450 2    50   Input ~ 0
 RCol1
-Text GLabel 2950 4850 2    50   Input ~ 0
+Text GLabel 2550 8550 2    50   Input ~ 0
 RCol2
-Text GLabel 2950 4950 2    50   Input ~ 0
+Text GLabel 2550 8650 2    50   Input ~ 0
 RCol3
-Text GLabel 2950 5050 2    50   Input ~ 0
+Text GLabel 2550 8750 2    50   Input ~ 0
 RCol4
-Text GLabel 2950 5150 2    50   Input ~ 0
+Text GLabel 2550 8850 2    50   Input ~ 0
 RCol5
-Text GLabel 1550 4350 0    50   Input ~ 0
+Text GLabel 1150 8050 0    50   Input ~ 0
 RGND
-Text GLabel 1550 4450 0    50   Input ~ 0
+Text GLabel 1150 8150 0    50   Input ~ 0
 RGND
-Text GLabel 2950 4250 2    50   Input ~ 0
+$Comp
+L Connector:Conn_01x01_Female Reset1
+U 1 1 6078C771
+P 3600 2000
+F 0 "Reset1" H 3628 2026 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3628 1935 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm" H 3600 2000 50  0001 C CNN
+F 3 "~" H 3600 2000 50  0001 C CNN
+	1    3600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female GND1
+U 1 1 6079FD38
+P 3600 1800
+F 0 "GND1" H 3628 1826 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3628 1735 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm" H 3600 1800 50  0001 C CNN
+F 3 "~" H 3600 1800 50  0001 C CNN
+	1    3600 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1900 3400 2000
+Wire Wire Line
+	3000 1900 3400 1900
+Wire Wire Line
+	3000 1800 3300 1800
+Wire Wire Line
+	3300 1800 3300 1700
+Connection ~ 3300 1800
+Wire Wire Line
+	3300 1800 3400 1800
+Text GLabel 2850 7950 1    50   Input ~ 0
 RGND
+$Comp
+L Connector:Conn_01x01_Female RReset1
+U 1 1 607FD244
+P 3150 8250
+F 0 "RReset1" H 3178 8276 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3178 8185 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm" H 3150 8250 50  0001 C CNN
+F 3 "~" H 3150 8250 50  0001 C CNN
+	1    3150 8250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Female RGND1
+U 1 1 607FD24A
+P 3150 8050
+F 0 "RGND1" H 3178 8076 50  0000 L CNN
+F 1 "Conn_01x01_Female" H 3178 7985 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.15sqmm_1x01_D0.5mm_OD1.5mm" H 3150 8050 50  0001 C CNN
+F 3 "~" H 3150 8050 50  0001 C CNN
+	1    3150 8050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 8150 2950 8250
+Wire Wire Line
+	2550 8150 2950 8150
+Wire Wire Line
+	2550 8050 2850 8050
+Wire Wire Line
+	2850 8050 2850 7950
+Connection ~ 2850 8050
+Wire Wire Line
+	2850 8050 2950 8050
+NoConn ~ 2550 7850
+NoConn ~ 2550 7950
+NoConn ~ 2550 8950
+NoConn ~ 1150 8950
+NoConn ~ 1150 8850
+NoConn ~ 1150 8750
+NoConn ~ 1150 8650
+NoConn ~ 1150 7950
+NoConn ~ 1150 7850
 $EndSCHEMATC
