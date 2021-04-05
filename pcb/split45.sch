@@ -1574,13 +1574,10 @@ F 3 "" V 3300 2200 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3000 1700
-NoConn ~ 3000 1800
 NoConn ~ 3000 1900
 NoConn ~ 3000 2000
 NoConn ~ 1600 1700
 NoConn ~ 1600 1800
-NoConn ~ 1600 1900
-NoConn ~ 1600 2000
 Text GLabel 3000 2100 2    50   Input ~ 0
 LRow1
 Text GLabel 3000 2200 2    50   Input ~ 0
@@ -1618,4 +1615,42 @@ F 3 "" V 3350 -250 60  0001 C CNN
 	1    2300 2250
 	1    0    0    -1  
 $EndComp
+Text GLabel 3000 1800 2    50   Input ~ 0
+GND
+Text GLabel 1600 1900 0    50   Input ~ 0
+GND
+Text GLabel 1600 2000 0    50   Input ~ 0
+GND
+Wire Wire Line
+	3950 14250 5950 14250
+Connection ~ 3950 14250
+Connection ~ 5950 14250
+Text GLabel 1550 4650 0    50   Input ~ 0
+RRow2
+Text GLabel 1550 4550 0    50   Input ~ 0
+RRow1
+Text GLabel 2950 4550 2    50   Input ~ 0
+RRow4
+Text GLabel 2950 4650 2    50   Input ~ 0
+RRow3
+Text GLabel 1550 4750 0    50   Input ~ 0
+RCol7
+Text GLabel 1550 4850 0    50   Input ~ 0
+RCol6
+Text GLabel 2950 4750 2    50   Input ~ 0
+RCol1
+Text GLabel 2950 4850 2    50   Input ~ 0
+RCol2
+Text GLabel 2950 4950 2    50   Input ~ 0
+RCol3
+Text GLabel 2950 5050 2    50   Input ~ 0
+RCol4
+Text GLabel 2950 5150 2    50   Input ~ 0
+RCol5
+Text GLabel 1550 4350 0    50   Input ~ 0
+RGND
+Text GLabel 1550 4450 0    50   Input ~ 0
+RGND
+Text GLabel 2950 4250 2    50   Input ~ 0
+RGND
 $EndSCHEMATC
