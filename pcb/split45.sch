@@ -1563,25 +1563,59 @@ Connection ~ 3950 9800
 Wire Wire Line
 	3950 9800 4950 9800
 $Comp
-L nice_nano:nice_nano U1
-U 1 1 60F4B577
-P 1600 2250
-F 0 "U1" H 1600 3187 60  0000 C CNN
-F 1 "nice_nano" H 1600 3081 60  0000 C CNN
-F 2 "nice-nano-kicad:nice_nano" V 2650 -250 60  0001 C CNN
-F 3 "" V 2650 -250 60  0001 C CNN
-	1    1600 2250
-	1    0    0    -1  
-$EndComp
-$Comp
 L nice_nano:nice_nano U2
 U 1 1 60F4CBBD
-P 1600 4700
-F 0 "U2" H 1600 5637 60  0000 C CNN
-F 1 "nice_nano" H 1600 5531 60  0000 C CNN
-F 2 "nice-nano-kicad:nice_nano" V 2650 2200 60  0001 C CNN
-F 3 "" V 2650 2200 60  0001 C CNN
-	1    1600 4700
+P 2250 4700
+F 0 "U2" H 2250 5637 60  0000 C CNN
+F 1 "nice_nano" H 2250 5531 60  0000 C CNN
+F 2 "nice-nano-kicad:nice_nano" V 3300 2200 60  0001 C CNN
+F 3 "" V 3300 2200 60  0001 C CNN
+	1    2250 4700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3000 1700
+NoConn ~ 3000 1800
+NoConn ~ 3000 1900
+NoConn ~ 3000 2000
+NoConn ~ 1600 1700
+NoConn ~ 1600 1800
+NoConn ~ 1600 1900
+NoConn ~ 1600 2000
+Text GLabel 3000 2100 2    50   Input ~ 0
+LRow1
+Text GLabel 3000 2200 2    50   Input ~ 0
+LRow2
+Text GLabel 1600 2100 0    50   Input ~ 0
+LRow4
+Text GLabel 1600 2200 0    50   Input ~ 0
+LRow3
+Text GLabel 1600 2300 0    50   Input ~ 0
+LCol1
+Text GLabel 1600 2400 0    50   Input ~ 0
+LCol6
+Text GLabel 1600 2500 0    50   Input ~ 0
+LCol5
+Text GLabel 1600 2600 0    50   Input ~ 0
+LCol4
+Text GLabel 1600 2700 0    50   Input ~ 0
+LCol3
+Text GLabel 1600 2800 0    50   Input ~ 0
+LCol2
+NoConn ~ 3000 2800
+NoConn ~ 3000 2700
+NoConn ~ 3000 2600
+NoConn ~ 3000 2500
+NoConn ~ 3000 2400
+NoConn ~ 3000 2300
+$Comp
+L nice_nano:nice_nano U1
+U 1 1 60F4B577
+P 2300 2250
+F 0 "U1" H 2300 3187 60  0000 C CNN
+F 1 "nice_nano" H 2300 3081 60  0000 C CNN
+F 2 "nice-nano-kicad:nice_nano" V 3350 -250 60  0001 C CNN
+F 3 "" V 3350 -250 60  0001 C CNN
+	1    2300 2250
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
