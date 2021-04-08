@@ -1,0 +1,15 @@
+- [ ] hardware
+  - [ ] solder battery and test ble
+- [ ] case
+  - [ ] start design
+- [ ] firmware
+   - [ ] space cadet parens
+   - [ ] move to config-only repo
+- [ ] pcb
+  - [ ] move screw holes
+  - [ ] change corner radii
+  - [ ] design for back
+  - [ ] generate gerbers
+  - [ ] order
+- [ ] other
+  - [ ] order switches
