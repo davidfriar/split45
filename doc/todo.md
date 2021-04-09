@@ -6,9 +6,10 @@
    - [ ] space cadet parens
    - [ ] move to config-only repo
 - [ ] pcb
-  - [ ] move screw holes
-  - [ ] change corner radii
+  - [x] move screw holes
+  - [x] change corner radii
   - [ ] design for back
+  - [ ] test whether copper on base affects bluetooth
   - [ ] generate gerbers
   - [ ] order
 - [ ] other
