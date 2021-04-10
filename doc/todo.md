@@ -8,9 +8,9 @@
 - [ ] pcb
   - [x] move screw holes
   - [x] change corner radii
-  - [ ] design for back
+  - [x] design for back
   - [ ] test whether copper on base affects bluetooth
-  - [ ] generate gerbers
-  - [ ] order
+  - [x] generate gerbers
+  - [x] order
 - [ ] other
   - [ ] order switches
