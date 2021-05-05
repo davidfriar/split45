@@ -19,10 +19,25 @@ left_corners = [
   ]
 ];
 
+
+
 left_fillets = [
   [124.619, -62.7063, 0.79375, false , true],
   [124.619, -37.3062, 0.79375, true , true],
   [119.856, -18.2563, 0.79375, true , true]
+];
+
+left_interior_corners = [
+  [
+    [12.7625, -12.7625, 4.7625 ],
+    [106.3, -12.7625, 4.7625 ],
+    [12.7625, -68.2, 4.7625 ],
+    [106.3, -68.2, 4.7625 ],
+  ]
+];
+
+left_interior_fillets = [
+
 ];
 
 right_corners = [
@@ -57,3 +72,12 @@ right_corners = [
     [13.4938, -43.6562, 0.79375, false, false ],
     [13.4938, -56.3562, 0.79375, true, false ],
   ];
+
+
+right_interior_corners = [
+
+];
+
+right_interior_fillets = [
+
+];
